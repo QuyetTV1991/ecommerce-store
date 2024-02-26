@@ -6,9 +6,9 @@ import Search from "./Search";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between max-w-[1280px] mx-auto my-4 sm:mx-6">
+    <header className="container flex p-4 lg:px-16">
       {/* Sidebar for Mobile */}
-      <Link href={"/"} className="flex-1">
+      <Link href={"/"} className="">
         <Image
           src={"/assets/icons/logo-colored.svg"}
           alt="logo"
