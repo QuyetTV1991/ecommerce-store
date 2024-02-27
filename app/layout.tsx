@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Header from "./components/Header/Header";
+import Footer from "./components/shared/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -65,8 +66,8 @@ export default function RootLayout({
       </head>
       <body className={cn("font-inter antialiased", inter.variable)}>
         <Header />
-        <main className="w-full mx-auto">{children}</main>
-        <div>Footer</div>
+        <main className="w-full mx-auto bg-blue-50/25">{children}</main>
+        <Footer />
       </body>
     </html>
   );
