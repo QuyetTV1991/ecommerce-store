@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Phudu } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Header from "./components/Header/Header";
 
-const phudu = Phudu({
-  subsets: ["latin", "vietnamese"],
+const inter = Inter({
+  subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-phudu",
+  variable: "--font-inter",
   style: ["normal"],
   display: "swap",
 });
@@ -63,7 +63,7 @@ export default function RootLayout({
         {/* Set a default favicon */}
         <link rel="icon" href="/favicon/favicon.ico" />
       </head>
-      <body className={cn("font-phudu antialiased", phudu.variable)}>
+      <body className={cn("font-inter antialiased", inter.variable)}>
         <Header />
         <main className="w-full mx-auto">{children}</main>
         <div>Footer</div>

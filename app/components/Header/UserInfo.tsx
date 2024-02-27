@@ -19,7 +19,7 @@ const UserInfo = () => {
             height={24}
             className="object-contain"
           />
-          <p className="text-gray-500">{link.lable}</p>
+          <p className="text-gray-500 text-sm mt-1">{link.lable}</p>
         </Link>
       ))}
     </div>

@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        phudu: ["var(--font-phudu)"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
