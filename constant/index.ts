@@ -135,3 +135,30 @@ export const FooterLinks = [
         ]
     },
 ]
+
+export const Filters = [
+    {
+        label: "All Category",
+        value: 'all-category',
+    },
+    {
+        label: "Hot offers",
+        value: 'hot-offers',
+    },
+    {
+        label: "Gift boxes",
+        value: 'gift-boxes',
+    },
+    {
+        label: "Projects",
+        value: 'projects',
+    },
+    {
+        label: "Menu item",
+        value: 'menu-item',
+    },
+    {
+        label: "Help",
+        value: 'help',
+    },
+]
