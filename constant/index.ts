@@ -162,3 +162,66 @@ export const Filters = [
         value: 'help',
     },
 ]
+
+export const CategoryList = [
+    {
+        title: 'Automobiles',
+        value: 'automobiles',
+        bannerUrl: '/assets/images/{need replace}'
+    },
+    {
+        title: 'Closthes and wear',
+        value: 'clothes',
+        bannerUrl: '/assets/images/{need replace}'
+    },
+    {
+        title: 'Automobiles',
+        value: 'automobiles',
+        bannerUrl: '/assets/images/{need replace}'
+    },
+    {
+        title: 'Automobiles',
+        value: 'automobiles',
+        bannerUrl: '/assets/images/{need replace}'
+    },
+    {
+        title: 'Automobiles',
+        value: 'automobiles',
+        bannerUrl: '/assets/images/{need replace}'
+    },
+    {
+        title: 'Automobiles',
+        value: 'automobiles',
+        bannerUrl: '/assets/images/{need replace}'
+    },
+    {
+        title: 'Automobiles',
+        value: 'automobiles',
+        bannerUrl: '/assets/images/{need replace}'
+    },
+    {
+        title: 'Automobiles',
+        value: 'automobiles',
+        bannerUrl: '/assets/images/{need replace}'
+    },
+    {
+        title: 'Automobiles',
+        value: 'automobiles',
+        bannerUrl: '/assets/images/{need replace}'
+    },
+    {
+        title: 'Automobiles',
+        value: 'automobiles',
+        bannerUrl: '/assets/images/{need replace}'
+    },
+    {
+        title: 'Automobiles',
+        value: 'automobiles',
+        bannerUrl: '/assets/images/{need replace}'
+    },
+    {
+        title: 'Automobiles',
+        value: 'automobiles',
+        bannerUrl: '/assets/images/{need replace}'
+    },
+]

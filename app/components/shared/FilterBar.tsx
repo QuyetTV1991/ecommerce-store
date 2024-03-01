@@ -19,11 +19,11 @@ const FilterBar = () => {
                   width={18}
                   height={18}
                 />
-                <span className="text-sm font-semibold">{filter.label}</span>
+                <span className="text-[16px] font-medium">{filter.label}</span>
               </>
             ) : filter.value === "help" ? (
               <>
-                <span className="text-sm font-semibold">{filter.label}</span>
+                <span className="text-[16px] font-medium">{filter.label}</span>
                 <Image
                   src={"/assets/icons/down-chevron.svg"}
                   alt="down arrow"
@@ -32,7 +32,7 @@ const FilterBar = () => {
                 />
               </>
             ) : (
-              <span className="text-sm font-semibold">{filter.label}</span>
+              <span className="text-[16px] font-medium">{filter.label}</span>
             )}
           </div>
         ))}
